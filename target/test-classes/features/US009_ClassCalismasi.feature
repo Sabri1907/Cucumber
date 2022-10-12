@@ -29,5 +29,3 @@ Feature: US1009 Datatables sitesine 5 farkli giris yapalim
       | alim      | alim     | qa       | ankara | UI        | 2021-10-11 | 11000  |
       | ismail    | Can      | testter  | ankara | api       | 2021-05-05 | 11000  |
       | huseyin   | kacmaz   | BA       | berlin | -         | 2021-10-12 | 40000  |
-      | fatih     | yilmaz   | PO       | berlin | database  | 2021-06-06 | 45000  |
-      | ahmet     | al       | tester   | ankara | database  | 2021-05-06 | 11000  |
