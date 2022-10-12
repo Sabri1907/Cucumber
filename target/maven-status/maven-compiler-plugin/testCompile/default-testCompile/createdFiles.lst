@@ -1,2 +1,4 @@
+stepDefinitions\dataTablesStepDefinitions.class
+pages\DataTablesPage.class
 pages\BlueRentalCarsPage.class
 stepDefinitions\BlueRentalCarStepDefinition.class

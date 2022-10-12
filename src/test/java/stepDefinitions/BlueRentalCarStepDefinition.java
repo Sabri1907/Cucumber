@@ -39,4 +39,8 @@ public class BlueRentalCarStepDefinition {
     }
 
 
+    @And("Gecersiz {string} girer")
+    public void gecersizGirer(String arg0) {
+
+    }
 }
