@@ -4,9 +4,12 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin={"html:target\\cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml" },
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@Outline", // Calistirmak istedigimiz tag'i yazariz. Hepsini calistirmak icin @All,
+        tags = "@grp5", // Calistirmak istedigimiz tag'i yazariz. Hepsini calistirmak icin @All,
         // istedigimiz iki tag'i calistirmak icin de grp1 or grp2 seklinde yazariz..
         dryRun = false
 )

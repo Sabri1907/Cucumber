@@ -1,4 +1,7 @@
 stepDefinitions\DataTablesStepDefinitions.class
+pages\GuruPage.class
+stepDefinitions\BlueRentalCarStepDefinition.class
+stepDefinitions\Hooks.class
 pages\DataTablesPage.class
 pages\BlueRentalCarsPage.class
-stepDefinitions\BlueRentalCarStepDefinition.class
+stepDefinitions\GuruStepDefinition.class
