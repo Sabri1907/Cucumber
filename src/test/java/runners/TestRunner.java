@@ -2,6 +2,7 @@ package runners;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin={"html:target\\cucumber-reports.html",
@@ -9,11 +10,11 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml" },
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@night", // Calistirmak istedigimiz tag'i yazariz. Hepsini calistirmak icin @All,
-        // istedigimiz iki tag'i calistirmak icin de grp1 or grp2 seklinde yazariz.
+        tags = "@web", // Calistirmak istedigimiz tag'i yazariz. Hepsini calistirmak icin @All,
+        // istedigimiz iki tag'i calistirmak icin de grp1 or grp2 seklinde yazariz..
         dryRun = false
 )
-public class Runner {
+public class TestRunner {
     /*
      Runner Class'ı TestNG'deki XMl mantığı ile çalışır. Çalıştırmak istediğimiz senaryolara tag belirtiriz
     ve belirttiğimiz tag'ları çalıştırır. XMl deki gibi istediğimiz testleri çalıştırmak için kullanırız.

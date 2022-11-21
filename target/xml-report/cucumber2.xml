@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.841">
+    <testcase classname="US014 Class Work" name="Kullanici ve Url Testi" time="32.03">
+        <system-out>
+            <![CDATA[Given Kullanici "webUrl" sayfasina gider....................................passed
+Then Kullanici Login portala kadar asagi iner...............................passed
+And Kullanici Login portala tiklar..........................................passed
+And Kullanici diger windowa gecer...........................................passed
+And Kullanici "username" kutusuna bilgileri girer...........................passed
+And Kullanici "password" bolumune bilgileri girer...........................passed
+And Kullanici login butonuna tiklar.........................................passed
+And Kullanici Popup'ta cikan yazinin validation failed oldugunu test eder...passed
+And Kullanici Ok butonuna tiklayarak Popup'i kapatir........................passed
+And Kullanici ilk sayfaya geri doner........................................passed
+And Kullanici ilk sayfaya donuldugunu test eder.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

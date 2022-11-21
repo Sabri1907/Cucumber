@@ -14,7 +14,7 @@ public class GuruStepDefinition {
     public void sutunundakiTumDegerleriYazdirir(String baslik) {
         int index=0;
         for (int i = 0; i <guru.basliklar.size() ; i++) {
-            if (guru.basliklar.get(i).getText().equals(baslik)){ // Featire'dan gelen string degeri i
+            if (guru.basliklar.get(i).getText().equals(baslik)){ // Feature'dan gelen string degeri i
                                                                  // degerine esitledik
                 System.out.println(guru.basliklar.get(i).getText()); // Feature'dan gelen basligi yazdirdik
                 index=i+1; // Feature'dan gelen i degerine esitledigimiz string'i ayni degere sahip sutunlari da

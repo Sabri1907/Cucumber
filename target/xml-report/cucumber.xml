@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.738">
+    <testcase classname="US004 ConfigReader Olmadan Parametre Kullanimi" name="TC04 Parametre kullaniminda ConfigReader Kullanimi" time="17.125">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given Kullanici "https://www.amazon.com" adresine gider.....................passed
+Then Kullanici 3 saniye bekler..............................................passed
+Then Url'in "hepsi" icerdigini test eder....................................failed
+And Sayfayi kapatir.........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.AmazonStepDefinition.urlInIcerdiginiTestEder(AmazonStepDefinition.java:91)
+	at ✽.Url'in "hepsi" icerdigini test eder(file:///C:/Users/dell/IdeaProjects/com.Batch81Cucumber/src/test/resources/features/US004_ParametreliConfigsiz.feature:7)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

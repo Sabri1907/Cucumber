@@ -22,7 +22,7 @@ public class AmazonStepDefinition {
     @Then("Kullanici nutella aratir")
     public void kullaniciNutellaAratir() {
 
-       amazonPage.aramaKutusu.sendKeys("nutella"+Keys.ENTER);
+       amazonPage.aramaKutusu.sendKeys("nutella"+Keys.ENTER); //
     }
 
     @And("Sonuclarin nutella icerdigini test eder")

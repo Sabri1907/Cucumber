@@ -1,7 +1,15 @@
+stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\DataTablesStepDefinitions.class
 pages\GuruPage.class
+pages\WebPage.class
 stepDefinitions\BlueRentalCarStepDefinition.class
+pages\AmazonPage.class
+runners\Runner.class
+runners\TestRunner.class
+utilities\Driver.class
 stepDefinitions\Hooks.class
+stepDefinitions\WebDriverStepDefinition.class
 pages\DataTablesPage.class
+utilities\ConfigReader.class
 pages\BlueRentalCarsPage.class
 stepDefinitions\GuruStepDefinition.class

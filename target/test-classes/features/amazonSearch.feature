@@ -5,6 +5,7 @@ Feature: Amazon Search
     Given Kullanici Amazon sayfasina gider
     Then Kullanici nutella aratir
     And Sonuclarin nutella icerdigini test eder
+    #And Sayfayi kapatir
 
   @gp2
   Scenario: TC02 Kullanici Amazon'da Selenium aratir
@@ -12,6 +13,7 @@ Feature: Amazon Search
     Given Kullanici Amazon sayfasina gider
     Then Kullanici Selenium aratir
     And Sonuclarin Selenium icerdigini test eder
+    #And Sayfayi kapatir
 
   @gp3
   Scenario: TC03 Kullanici Amazon'da iphone aratir
